@@ -70,7 +70,7 @@ const MASTER_MAP = [
             {"name": "Rippling", "shortcutKey": "x", "url": "https://app.rippling.com/dashboard"},
             {"name": "Harvest", "shortcutKey": "c", "url": "https://merchantlabs.harvestapp.com/time"},
             {"name": "Asana", "shortcutKey": "q", "url": "https://app.asana.com/"},
-            {"name": "UniFy Portal", "shortcutKey": "w", "url": "https://unifi.ui.com/dashboard"},
+            {"name": "UniFy Portal", "shortcutKey": "w", "url": "https://unifi.ui.com/consoles"},
             {"name": "Amazon SC", "shortcutKey": "z", "url": "https://sellercentral.amazon.com/gp/homepage.html/ref=xx_home_logo_xx"},
             {"name": "Gmail", "shortcutKey": "x", "url": "https://mail.google.com/mail/u/0/#inbox"},
             {"name": "Fivetran", "shortcutKey": "z", "url": "https://fivetran.com/login"},
