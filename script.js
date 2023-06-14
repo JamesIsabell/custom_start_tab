@@ -1,4 +1,4 @@
-const NAME = "Tevett";
+const NAME = "James";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -67,6 +67,12 @@ const MASTER_MAP = [
     {
         "groupName": "Tools",
         "items":[
+            {"name": "Rippling", "shortcutKey": "x", "url": "https://app.rippling.com/dashboard"},
+            {"name": "Harvest", "shortcutKey": "c", "url": "https://merchantlabs.harvestapp.com/time"},
+            {"name": "Asana", "shortcutKey": "q", "url": "https://app.asana.com/"},
+            {"name": "UniFy Portal", "shortcutKey": "w", "url": "https://unifi.ui.com/dashboard"},
+            {"name": "Amazon SC", "shortcutKey": "z", "url": "https://sellercentral.amazon.com/gp/homepage.html/ref=xx_home_logo_xx"},
+            {"name": "Gmail", "shortcutKey": "x", "url": "https://mail.google.com/mail/u/0/#inbox"},
             {"name": "Fivetran", "shortcutKey": "z", "url": "https://fivetran.com/login"},
             {"name": "CRON", "shortcutKey": "x", "url": "https://crontab.guru/#0_0_*_*_3"},
             {"name": "Azure Portal", "shortcutKey": "c", "url": "https://portal.azure.com/#home"},
@@ -184,7 +190,7 @@ function shortcutListener(e) {
 
 function main(){
 
-    setupWelcomeMessage();
+    // setupWelcomeMessage();
     setupGroups();
     document.addEventListener('keyup', shortcutListener, false);
 }

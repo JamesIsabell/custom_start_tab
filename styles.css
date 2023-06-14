@@ -1,13 +1,13 @@
 /* Red borders on visible elements - handy for debugging */
-/** { border: 1px solid red; }*/
+/* * { border: 1px solid red; } */
 
 :root {
     --bg-color: #223030;
     --text-color: #dddddd;
-    --bg-image: url("assets/bg.jpg");
     --SHORTCUT_TIMEOUT: 1.5s;
 }
 body {
+    /* display: flex; */
     padding: 0;
     margin: 0;
 
@@ -16,7 +16,7 @@ body {
     background-size: cover;
     color: var(--text-color);
 
-    font-family: 'Raleway', sans-serif;
+    font-family: 'SF Pro', sans-serif;
     font-size: 22px;
 
     user-select: none;
@@ -24,19 +24,12 @@ body {
 }
 
 #logo {
-    padding-top: 10vh;
     text-align: center;
 }
 #logo h1 {
     font-weight: 200;
     font-size: 4rem;
     margin-bottom: 0;
-}
-#logo h2 {
-    font-weight: 200;
-    font-size: 2rem;
-    margin-top: 0;
-    opacity: 0.5;
 }
 
 #content {
@@ -56,18 +49,17 @@ body {
 .group {
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     width: 20%;
     padding: .5% 1.5%;
     margin: .25%;
-    background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 0.5em;
+
 }
 .group h1 {
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 0;
-    border-bottom: 2px solid var(--text-color);
+
 }
 
 .group p {
@@ -81,7 +73,7 @@ body {
 .subgroup {
     display: inline-block;
     vertical-align: top;
-    text-align: left;
+    text-align: center;
     width: 95%;
     margin: .25%;
     padding: .5% 1.5%;
@@ -100,7 +92,7 @@ body {
     font-weight: 400;
     font-size: 1.5rem;
     margin-bottom: 0;
-    border-bottom: 1px solid var(--text-color);
+
 }
 
 .shortcut {
