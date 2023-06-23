@@ -49,7 +49,7 @@ const MASTER_MAP = [
             {
                 "groupName": "Switchboard",
                 "items":[
-                    {"name": "Deployment", "url": "https://deployments.gcp0001.us-east4.astronomer.io/magnetic-sunspot-7057/airflow/home"},
+                    {"name": "Deployment", "url": "https://merchant-labs.astronomer.run/dm0mate0/home"},
                     {"name": "Local Instance", "url": "http://localhost:8081/"},
                     {"name": "Cosmos", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/Switchboard/providers/Microsoft.DocumentDb/databaseAccounts/nile-switchboard/overview"},
                     {"name": "Blob Storage", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/Switchboard/providers/Microsoft.Storage/storageAccounts/switchboard/overview"},
@@ -60,7 +60,7 @@ const MASTER_MAP = [
             {
                 "groupName": "Soapbox",
                 "items":[
-                    {"name": "Deployment", "url": "https://deployments.gcp0001.us-east4.astronomer.io/elementary-astronaut-5472/airflow/home"},
+                    {"name": "Deployment", "url": "https://merchant-labs.astronomer.run/dzor8z0d/home"},
                     {"name": "Local Instance", "url": "http://localhost:8080/"},
                     {"name": "Cosmos", "url": "https://portal.azure.com/#@terrarose.com/resource/subscriptions/6d4d748d-18c9-4126-a3b6-9c5cf87fb739/resourceGroups/mlabs/providers/Microsoft.DocumentDb/databaseAccounts/mlabs/overview"},
                     {"name": "Vercel", "url": "https://vercel.com/mlabs/linker"},
