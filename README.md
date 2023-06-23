@@ -1,9 +1,5 @@
 # Minimum Viable Startpage
 
-![Screenshot](https://raw.githubusercontent.com/0-Tikaro/minimum-viable-startpage/master/docs/screenshot.png)
-
-This is a startpage I put together on one lazy afternoon. Cheers. :cat2:
-
 ## What is a startpage?
 A startpage is a small custom webpage that replaces the new tab page of your browser. It's usually done for the sake of aesthetics or to raise the efficiency of your day-to-day work with the Internet. (But mostly for aesthetics)
 
