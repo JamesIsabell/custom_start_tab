@@ -77,12 +77,13 @@ const MASTER_MAP = [
             {
                 "groupName": "Work",
                 "items":[
+                    {"name": "Nile GitHub", "url": "https://github.com/orgs/nilecommerce/repositories"},
+                    {"name": "Personal GitHub", "url": "https://nilecommerce.atlassian.net/secure/RapidBoard.jspa?rapidView=1&projectKey=SWB"},
                     {"name": "Rippling", "url": "https://app.rippling.com/dashboard"},
                     {"name": "Harvest", "url": "https://merchantlabs.harvestapp.com/time"},
                     {"name": "Asana", "url": "https://app.asana.com/"},
                     {"name": "UniFy Portal", "url": "https://unifi.ui.com/consoles"},
                     {"name": "Amazon SC", "url": "https://sellercentral.amazon.com/gp/homepage.html/ref=xx_home_logo_xx"},
-                    {"name": "Gmail", "url": "https://mail.google.com/mail/u/0/#inbox"}
                 ]
             },
             {
