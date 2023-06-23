@@ -1,14 +1,13 @@
 :root {
-    --bg-color: #000000;
+    --bg-color: #4a4a4a;
     --text-color: #ffffff;
-    --SHORTCUT_TIMEOUT: 1.5s;
-    font-family: 'SF Pro', sans-serif;
+    --bg-image: url("assets/wood-design.jpg");
 }
 body {
-    background: var(--bg-image);
-    background-color: var(--bg-color);
-    background-size: cover;
+    font-family: 'SF Pro', sans-serif;
     color: var(--text-color);
+    background: var(--bg-image) var(--bg-color);
+    background-blend-mode: multiply;
 }
 #logo {
     text-align: center;
@@ -23,11 +22,13 @@ body {
     display: inline-block;
     vertical-align: top;
     width: 20%;
+
 }
 h1 {
     font-weight: 400;
     font-size: 2rem;
     margin-bottom: 0;
+
 }
 .subgroup {
     display: inline-block;
