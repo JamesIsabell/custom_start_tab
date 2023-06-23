@@ -1,26 +1,15 @@
-/* Red borders on visible elements - handy for debugging */
-/* * { border: 1px solid red; } */
-
 :root {
     --bg-color: #000000;
     --text-color: #ffffff;
     --SHORTCUT_TIMEOUT: 1.5s;
+    font-family: 'SF Pro', sans-serif;
 }
 body {
-    padding: 0;
-    margin: 0;
-
     background: var(--bg-image);
     background-color: var(--bg-color);
     background-size: cover;
     color: var(--text-color);
-
-    font-family: 'SF Pro', sans-serif;
-
-    user-select: none;
-    animation: fadein 1s;
 }
-
 #logo {
     text-align: center;
     font-weight: 200;
@@ -35,37 +24,38 @@ body {
     vertical-align: top;
     width: 20%;
 }
+h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
 .subgroup {
     display: inline-block;
     vertical-align: top;
     text-align: center;
     width: 95%;
 }
-
 h2 {
     font-weight: 400;
     font-size: 1.6rem;
     margin-bottom: 0;
 }
-
 p {
     text-align: center;
     margin-top: 0;
     margin-bottom: 0;
     padding: 0.3rem 0;
 }
-
 a {
     color: var(--text-color);
     text-decoration: none;
     opacity: 0.5;
     font-size: 1.5rem;
 }
-
 a:hover {
+    color: #ffb700;
     transition: all 0.4s ease;
     opacity: 1;
     font-size: 1.51rem;
-    color: #ffb700;
 }
 
