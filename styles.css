@@ -7,6 +7,7 @@ body {
     font-family: 'SF Pro', sans-serif;
     color: var(--text-color);
     background: var(--bg-image) var(--bg-color);
+    background-size: cover;
     background-blend-mode: multiply;
 }
 #logo {
