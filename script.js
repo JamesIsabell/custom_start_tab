@@ -22,8 +22,7 @@ const MASTER_MAP = [
                     {"name": "Infor Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
                     {"name": "Infor Docs", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
                     {"name": "Infor U", "url": "https://campus.infor.com/"},
-                    {"name": "Infor Concierge", "url": "https://concierge.infor.com/"},
-                    {"name": "TMS", "url": "http://tms-tugg.eastus.cloudapp.azure.com/login"}
+                    {"name": "Infor Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"}
                 ]
             },
             {
