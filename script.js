@@ -8,8 +8,8 @@ const MASTER_MAP = [
             {
                 "groupName": "NetSuite",
                 "items":[
-                    {"name": "Great Star", "url": "https://6145117.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
                     {"name": "Terra Rose", "url": "https://6751627.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
+                    {"name": "Great Star", "url": "https://6145117.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
                     {"name": "Everyone Designs", "url": "https://7236299.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
                     {"name": "House of Outdoors", "url": "https://7576050.app.netsuite.com/app/center/card.nl?sc=-29&whence="},
                     {"name": "Efofex", "url": "https://8157261.app.netsuite.com/app/center/card.nl?sc=-29&whence="}
@@ -18,11 +18,11 @@ const MASTER_MAP = [
             {
                 "groupName": "Infor",
                 "items":[
-                    {"name": "Production", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_PRD"},
-                    {"name": "Infor Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
-                    {"name": "Infor Docs", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
+                    {"name": "Desktop", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_PRD"},
+                    {"name": "Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
+                    {"name": "Documentation", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
                     {"name": "Infor U", "url": "https://campus.infor.com/"},
-                    {"name": "Infor Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"}
+                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"}
                 ]
             },
             {
@@ -76,11 +76,10 @@ const MASTER_MAP = [
             {
                 "groupName": "Work",
                 "items":[
-                    {"name": "Nile GitHub", "url": "https://github.com/orgs/nilecommerce/repositories"},
-                    {"name": "Personal GitHub", "url": "https://github.com/JamesIsabell?tab=repositories"},
+                    {"name": "GitHub", "url": "https://github.com/orgs/nilecommerce/repositories"},
+                    {"name": "Vault", "url": "https://app.merchantlabs.io/"},
+                    {"name": "Divvy", "url": "https://app.divvy.co/companies/Q29tcGFueTozNzM3NA==/home/dashboard"},
                     {"name": "Rippling", "url": "https://app.rippling.com/dashboard"},
-                    {"name": "Harvest", "url": "https://merchantlabs.harvestapp.com/time"},
-                    {"name": "Asana", "url": "https://app.asana.com/"},
                     {"name": "UniFy Portal", "url": "https://unifi.ui.com/consoles"},
                     {"name": "Amazon SC", "url": "https://sellercentral.amazon.com/gp/homepage.html/ref=xx_home_logo_xx"},
                 ]
@@ -88,7 +87,8 @@ const MASTER_MAP = [
             {
                 "groupName": "Personal",
                 "items":[
-                    {"name": "Gmail", "url": "https://mail.google.com/mail/u/0/#inbox"}
+                    {"name": "Gmail", "url": "https://mail.google.com/mail/u/0/#inbox"},
+                    {"name": "GitHub", "url": "https://github.com/JamesIsabell?tab=repositories"},
                 ]
             },
             {
