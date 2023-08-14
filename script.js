@@ -29,6 +29,7 @@ const MASTER_MAP = [
                 "groupName": "Microsoft",
                 "items":[
                     {"name": "Microsoft 365", "url": "https://www.microsoft365.com/?auth=2"},
+                    {"name": "OneDrive", "url": "https://terrarose-my.sharepoint.com/personal/james_choosenile_com//_layouts/15/onedrive.aspx?login_hint=james%40choosenile%2Ecom&view=1"},
                     {"name": "Azure", "url": "https://portal.azure.com/#home"},
                     {"name": "Admin", "url": "https://admin.microsoft.com/?auth_upn=james%40choosenile.com&source=applauncher#/homepage"}
                 ]
