@@ -20,21 +20,14 @@ const MASTER_MAP = [
                 "items":[
                     {"name": "Desktop", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_PRD"},
                     {"name": "Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
+                    {"name": "Training", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TRN"},
+                    {"name": "Testing", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TST"},
                     {"name": "Documentation", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
                     {"name": "Infor U", "url": "https://campus.infor.com/"},
-                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"}
-                ]
-            },
-            {
-                "groupName": "Microsoft",
-                "items":[
-                    {"name": "Microsoft 365", "url": "https://www.microsoft365.com/?auth=2"},
-                    {"name": "OneDrive", "url": "https://terrarose-my.sharepoint.com/personal/james_choosenile_com//_layouts/15/onedrive.aspx?login_hint=james%40choosenile%2Ecom&view=1"},
-                    {"name": "Azure", "url": "https://portal.azure.com/#home"},
-                    {"name": "Admin", "url": "https://admin.microsoft.com/?auth_upn=james%40choosenile.com&source=applauncher#/homepage"}
+                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"},
+                    {"name": "TMS", "url": "https://skandh-tms-tugg.eastus.cloudapp.azure.com/home"},
                 ]
             }
-            
         ]
     },
     {
@@ -93,14 +86,12 @@ const MASTER_MAP = [
                 ]
             },
             {
-                "groupName": "Extras",
+                "groupName": "Microsoft",
                 "items":[
-                    {"name": "Fivetran", "url": "https://fivetran.com/login"},
-                    {"name": "CRON", "url": "https://crontab.guru/#0_0_*_*_3"},
-                    {"name": "Azure Portal", "url": "https://portal.azure.com/#home"},
-                    {"name": "Sharepoint", "url": "https://terrarose.sharepoint.com/_layouts/15/sharepoint.aspx"},
-                    {"name": "DataDog", "url": "https://us3.datadoghq.com/account/login/id/2c82dc80-9e62-11ec-b63b-da7ad0900003"},
-                    {"name": "Code Beautify", "url": "https://codebeautify.org/"}
+                    {"name": "Microsoft 365", "url": "https://www.microsoft365.com/?auth=2"},
+                    {"name": "OneDrive", "url": "https://terrarose-my.sharepoint.com/personal/james_choosenile_com//_layouts/15/onedrive.aspx?login_hint=james%40choosenile%2Ecom&view=1"},
+                    {"name": "Azure", "url": "https://portal.azure.com/#home"},
+                    {"name": "Admin", "url": "https://admin.microsoft.com/?auth_upn=james%40choosenile.com&source=applauncher#/homepage"}
                 ]
             }
         ]
