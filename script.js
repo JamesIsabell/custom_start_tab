@@ -2,6 +2,32 @@
 // shortcutKey must hold an all-lowercase single button. Theoretically should work with values like `esc` and `f1`,
 // but intended to be used with just regular latin letters.
 const MASTER_MAP = [
+    
+    {
+        "groupName": "Fulfillment",
+        "subGroups": [
+            {
+                "groupName": "General",
+                "items":[
+                    {"name": "Fresh Desk", "url": "https://nile.freshdesk.com/a/tickets/filters/unresolved"},
+                    {"name": "Shopify", "url": "https://partners.shopify.com/801562/stores"},
+                    {"name": "TMS", "url": "https://skandh-tms-tugg.eastus.cloudapp.azure.com/home"},
+                ]
+            },
+            {
+                "groupName": "Infor",
+                "items":[
+                    {"name": "Desktop", "url": "https://mingle-portal.inforcloudsuite.com/v2/X9K98RYL2D6P5AD4_PRD/87a130c6-35e8-4961-8aa0-3f4891ae549a"},
+                    {"name": "Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
+                    {"name": "Training", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TRN"},
+                    {"name": "Testing", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TST"},
+                    {"name": "Documentation", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
+                    {"name": "Infor U", "url": "https://campus.infor.com/"},
+                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"},
+                ]
+            }
+        ]
+    },
     {
         "groupName": "Systems",
         "subGroups": [
@@ -16,29 +42,19 @@ const MASTER_MAP = [
                 ]
             },
             {
-                "groupName": "Infor",
+                "groupName": "Microsoft",
                 "items":[
-                    {"name": "Desktop", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_PRD"},
-                    {"name": "Mobile", "url": "https://prd.sce.inforcloudsuite.com/scp11/sce/mobile-web-client/inforMetaClient.html?tenant=X9K98RYL2D6P5AD4_PRD"},
-                    {"name": "Training", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TRN"},
-                    {"name": "Testing", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TST"},
-                    {"name": "Documentation", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
-                    {"name": "Infor U", "url": "https://campus.infor.com/"},
-                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"},
-                    {"name": "TMS", "url": "https://skandh-tms-tugg.eastus.cloudapp.azure.com/home"},
+                    {"name": "Microsoft 365", "url": "https://www.microsoft365.com/?auth=2"},
+                    {"name": "OneDrive", "url": "https://terrarose-my.sharepoint.com/personal/james_choosenile_com//_layouts/15/onedrive.aspx?login_hint=james%40choosenile%2Ecom&view=1"},
+                    {"name": "Azure", "url": "https://portal.azure.com/#home"},
+                    {"name": "Admin", "url": "https://admin.microsoft.com/?auth_upn=james%40choosenile.com&source=applauncher#/homepage"}
                 ]
-            }
+            },
         ]
     },
     {
         "groupName": "Integrations",
         "subGroups": [
-            {
-                "groupName": "General",
-                "items":[
-                    {"name": "Astronomer", "url": "https://cloud.astronomer.io/clj7oy01y00ni01nk0hxrs3vp"}
-                ]
-            },
             {
                 "groupName": "Switchboard",
                 "items":[
@@ -71,11 +87,16 @@ const MASTER_MAP = [
                 "groupName": "Work",
                 "items":[
                     {"name": "GitHub", "url": "https://github.com/orgs/nilecommerce/repositories"},
-                    {"name": "Vault", "url": "https://app.merchantlabs.io/"},
-                    {"name": "Divvy", "url": "https://app.divvy.co/companies/Q29tcGFueTozNzM3NA==/home/dashboard"},
+                    {"name": "Link Vault", "url": "https://app.merchantlabs.io/"},
+                    {"name": "Bill Dashboard", "url": "https://app.divvy.co/companies/Q29tcGFueTozNzM3NA==/home/dashboard?timePeriod=last_12_months"},
                     {"name": "Rippling", "url": "https://app.rippling.com/dashboard"},
                     {"name": "UniFy Portal", "url": "https://unifi.ui.com/consoles"},
                     {"name": "Amazon SC", "url": "https://sellercentral.amazon.com/gp/homepage.html/ref=xx_home_logo_xx"},
+                    {"name": "Brightwheel", "url": "https://schools.mybrightwheel.com/org"},
+                    {"name": "LastPass", "url": "https://lastpass.com/company/#!/users/"},
+                    {"name": "Adobe Admin", "url": "https://adminconsole.adobe.com/2A7B4586619E9ADB0A495F85@AdobeOrg/overview"},
+                    
+                    
                 ]
             },
             {
@@ -85,15 +106,6 @@ const MASTER_MAP = [
                     {"name": "GitHub", "url": "https://github.com/JamesIsabell?tab=repositories"},
                 ]
             },
-            {
-                "groupName": "Microsoft",
-                "items":[
-                    {"name": "Microsoft 365", "url": "https://www.microsoft365.com/?auth=2"},
-                    {"name": "OneDrive", "url": "https://terrarose-my.sharepoint.com/personal/james_choosenile_com//_layouts/15/onedrive.aspx?login_hint=james%40choosenile%2Ecom&view=1"},
-                    {"name": "Azure", "url": "https://portal.azure.com/#home"},
-                    {"name": "Admin", "url": "https://admin.microsoft.com/?auth_upn=james%40choosenile.com&source=applauncher#/homepage"}
-                ]
-            }
         ]
     }
 ]
