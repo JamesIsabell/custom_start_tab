@@ -12,6 +12,7 @@ const MASTER_MAP = [
                     {"name": "Fresh Desk", "url": "https://nile.freshdesk.com/a/tickets/filters/unresolved"},
                     {"name": "Shopify", "url": "https://partners.shopify.com/801562/stores"},
                     {"name": "TMS", "url": "https://skandh-tms-tugg.eastus.cloudapp.azure.com/home"},
+                    {"name": "Fulfillment Dashboard", "url": "https://app.powerbi.com/groups/7057fa48-9399-475d-b2d2-97f55116941a/reports/1b879848-736d-4c69-9599-90453abe1d8b/ReportSection?experience=power-bi"},
                 ]
             },
             {
@@ -23,7 +24,7 @@ const MASTER_MAP = [
                     {"name": "Testing", "url": "https://mingle-portal.inforcloudsuite.com/X9K98RYL2D6P5AD4_TST"},
                     {"name": "Documentation", "url": "https://docs.infor.com/wms/2022.x/en-us/useradminlib/default.html"},
                     {"name": "Infor U", "url": "https://campus.infor.com/"},
-                    {"name": "Concierge", "url": "https://mingle-portal.us2.prd3.inforcloudsuite.com/v2/CONCIERGE_PRD/32bfda04-ad8e-4943-9b7d-0f3d57e84aaf"},
+                    {"name": "Customer Portal", "url": "https://customerportal.infor.com/csmcore"},
                 ]
             }
         ]
@@ -95,6 +96,7 @@ const MASTER_MAP = [
                     {"name": "Brightwheel", "url": "https://schools.mybrightwheel.com/org"},
                     {"name": "LastPass", "url": "https://lastpass.com/company/#!/users/"},
                     {"name": "Adobe Admin", "url": "https://adminconsole.adobe.com/2A7B4586619E9ADB0A495F85@AdobeOrg/overview"},
+                    {"name": "Verkada", "url": "https://command.verkada.com/devices"},
                     
                     
                 ]
