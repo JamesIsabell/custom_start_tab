@@ -12,7 +12,7 @@ const MASTER_MAP = [
                     {"name": "Fresh Desk", "url": "https://nile.freshdesk.com/a/tickets/filters/unresolved"},
                     {"name": "Shopify", "url": "https://partners.shopify.com/801562/stores"},
                     {"name": "TMS", "url": "https://skandh-tms-tugg.eastus.cloudapp.azure.com/home"},
-                    {"name": "Fulfillment Dashboard", "url": "https://app.powerbi.com/groups/7057fa48-9399-475d-b2d2-97f55116941a/reports/1b879848-736d-4c69-9599-90453abe1d8b/ReportSection?experience=power-bi"},
+                    {"name": "Fulfillment Dashboard", "url": "https://app.powerbi.com/groups/me/apps/998bbb17-e40e-4b2b-afd7-e417b59ccc99/reports/f5884623-8d69-49c8-83e0-3299e1b1f0d3/11fec9da8cf04e6a5d94?experience=power-bi"},
                 ]
             },
             {
